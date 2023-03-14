@@ -1,16 +1,27 @@
+import colors from '../colors.json';
+
+import SignupForm from './SingupForm/SignupForm';
+import ColorPicker from './ColorPicker/ColorPicker';
+import Counter from './Counter/Counter';
+import { Clock } from './Clock/Clock';
+
 export const App = () => {
   return (
     <div
+      className="bobr"
       style={{
-        height: '100vh',
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        padding: 20,
+        fontSize: 15,
       }}
     >
-      React homework template
+      <SignupForm />
+      <ColorPicker options={colors} />
+      <Counter />
+      <Clock />
     </div>
   );
 };
