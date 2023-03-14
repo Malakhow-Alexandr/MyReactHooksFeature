@@ -4,6 +4,7 @@ import SignupForm from './SingupForm/SignupForm';
 import ColorPicker from './ColorPicker/ColorPicker';
 import Counter from './Counter/Counter';
 import { Clock } from './Clock/Clock';
+import { PokemonBoard } from './PokemonFetch/PokemonBoard';
 
 export const App = () => {
   return (
@@ -22,6 +23,7 @@ export const App = () => {
       <ColorPicker options={colors} />
       <Counter />
       <Clock />
+      <PokemonBoard />
     </div>
   );
 };
