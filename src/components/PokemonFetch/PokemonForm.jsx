@@ -1,5 +1,5 @@
-import { Component, useState } from 'react';
-import { SiPokemon } from 'react-icons/si';
+import { useState } from 'react';
+
 import { toast } from 'react-toastify';
 
 export const PokemonForm = ({ onSubmit }) => {
