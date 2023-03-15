@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/MyReactHooksFeature/static/css/main.20dc43c7.css",
-    "main.js": "/MyReactHooksFeature/static/js/main.d66ee752.js",
+    "main.css": "/MyReactHooksFeature/static/css/main.b99f8ef3.css",
+    "main.js": "/MyReactHooksFeature/static/js/main.e8fecee9.js",
+    "static/media/loading.jpg": "/MyReactHooksFeature/static/media/loading.35f465bbbc2e33ca840a.jpg",
+    "static/media/error.jpg": "/MyReactHooksFeature/static/media/error.d49679df0c70386a9727.jpg",
     "index.html": "/MyReactHooksFeature/index.html",
-    "main.20dc43c7.css.map": "/MyReactHooksFeature/static/css/main.20dc43c7.css.map",
-    "main.d66ee752.js.map": "/MyReactHooksFeature/static/js/main.d66ee752.js.map"
+    "main.b99f8ef3.css.map": "/MyReactHooksFeature/static/css/main.b99f8ef3.css.map",
+    "main.e8fecee9.js.map": "/MyReactHooksFeature/static/js/main.e8fecee9.js.map"
   },
   "entrypoints": [
-    "static/css/main.20dc43c7.css",
-    "static/js/main.d66ee752.js"
+    "static/css/main.b99f8ef3.css",
+    "static/js/main.e8fecee9.js"
   ]
 }
