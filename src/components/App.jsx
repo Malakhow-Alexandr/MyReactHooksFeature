@@ -5,6 +5,7 @@ import ColorPicker from './ColorPicker/ColorPicker';
 import Counter from './Counter/Counter';
 import { Clock } from './Clock/Clock';
 import { PokemonBoard } from './PokemonFetch/PokemonBoard';
+import { CounterUseReduser } from './CounterUseReduser/CounterUsereduser';
 
 export const App = () => {
   return (
@@ -24,6 +25,7 @@ export const App = () => {
       <Counter />
       <Clock />
       <PokemonBoard />
+      <CounterUseReduser />
     </div>
   );
 };
