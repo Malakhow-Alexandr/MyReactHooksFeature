@@ -5,7 +5,11 @@ import ColorPicker from './ColorPicker/ColorPicker';
 import Counter from './Counter/Counter';
 import { Clock } from './Clock/Clock';
 import { PokemonBoard } from './PokemonFetch/PokemonBoard';
-import { CounterUseReduser } from './CounterUseReduser/CounterUsereduser';
+import { CounterUseReducer } from './CounterUseReducer/CounterUsereducer';
+import { Friends } from './Friends/Friends';
+import { AbortHttpsBoard } from './AbortHttp/AbortHttpBoard';
+import { AbortButton } from './AbortHttpButton/AbortButton';
+import { DogBoard } from './Dogs/DogsBoard';
 
 export const App = () => {
   return (
@@ -25,7 +29,11 @@ export const App = () => {
       <Counter />
       <Clock />
       <PokemonBoard />
-      <CounterUseReduser />
+      <CounterUseReducer />
+      <Friends />
+      <AbortHttpsBoard />
+      <AbortButton />
+      <DogBoard />
     </div>
   );
 };

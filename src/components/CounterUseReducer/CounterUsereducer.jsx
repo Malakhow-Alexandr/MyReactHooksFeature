@@ -1,4 +1,5 @@
 import { useReducer } from 'react';
+import styles from './_CounterUseReducer.module.scss';
 
 function countReducer(state, action) {
   switch (action.type) {
@@ -11,11 +12,11 @@ function countReducer(state, action) {
   }
 }
 
-export const CounterUseReduser = () => {
+export const CounterUseReducer = () => {
   const [state, dispatch] = useReducer(countReducer, { count: 0 });
 
   return (
-    <div>
+    <div className={styles.ReducerContainer}>
       <p>{state.count}</p>
       <button
         type="button"
